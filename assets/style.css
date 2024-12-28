@@ -1,0 +1,62 @@
+.min-height {
+  min-height: 80vh;
+}
+.admin__dashboard {
+  min-height: 80vh;
+}
+.hero-right__wrapper {
+  margin-right: calc(var(--bs-gutter-x)* .5 * -1);
+}
+.space {
+  padding-block: 70px;
+}
+.bg-inverse {
+  background-color: #f2f2f2;
+}
+.section-subtitle {
+  padding: 12px 30px;
+  background-color: rgb(21 114 211 / 12%);
+  color: #1572D3;
+  display: inline-block;
+  border-radius: 9px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.filter-form {
+  box-shadow: 0 6px 12px 0 rgb(19, 94, 172, .12);
+  padding-top: 0px !important;
+}
+.how-it-works img {
+  width: 90px;
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* car banner */
+.collection-banner {
+  background-image: url('/car-rental-service/assets/images/collection-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #f2f2f2;
+}
+
+.collection-banner::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(0deg, rgba(1, 0, 10, 0.8), rgba(26, 0, 0, 0.4));
+}
+
+.collection-banner h1 {
+  position: relative;
+}
+
+a.nav-link.active {
+  color: #000;
+}
